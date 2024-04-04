@@ -91,7 +91,7 @@ enable it for all users add the following entry in `argocd-rbac-cm`:
 
 ```
 policy.csv: |-
-  p, role:readonly, extensions, invoke, httpbin, allow
+  p, role:readonly, extensions, invoke, metrics, allow
 ```
 
 **Note**: make sure to assign a proper role to the extension policy if you
